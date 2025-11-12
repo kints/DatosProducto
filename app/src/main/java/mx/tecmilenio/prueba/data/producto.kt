@@ -4,5 +4,6 @@ data class producto(
     var id:Int,
     var nombre:String,
     var descripcion: String,
-    var image:String) {
+    var image:String,
+    var completado: Boolean) {
 }
